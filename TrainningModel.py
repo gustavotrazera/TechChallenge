@@ -30,8 +30,8 @@ def trainModel(dados, plt):
     # Visualizando as previsões
     plt.scatter(x_test, y_test, label='Real')
     plt.scatter(x_test, previsoes, label='Previsto', color='red')
-    plt.xlabel('Temperatura (°C)')
-    plt.ylabel('Vendas de Sorvetes (milhares)')
+    plt.xlabel('Charges ')
+    plt.ylabel('Age')
     plt.title('Previsões do Modelo de Regressão Linear')
     plt.legend()
     plt.show()
