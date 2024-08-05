@@ -22,7 +22,7 @@ dados['smoker'] = encoder.fit_transform(dados['smoker'])
 dados['region'] = encoder.fit_transform(dados['region'])
 
 # Gerando gráficos com os dados
-Graphics.generate(dados, plt, pd)
+Graphics.generate(dados, plt)
 
 # Normalizando os dados utilizando min max scaler
 x = dados.drop(columns=["charges"])

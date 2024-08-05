@@ -1,6 +1,6 @@
 
 
-def generate(dados, plt, pd):
+def generate(dados, plt):
 
     dados.plot.scatter(x="age", y="charges")
     plt.xlabel('Age')
