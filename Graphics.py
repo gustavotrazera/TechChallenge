@@ -1,5 +1,4 @@
 
-
 def generate(dados, plt):
 
     dados.plot.scatter(x="age", y="charges")
