@@ -1,4 +1,8 @@
-run python3 -m venv tech-challenge
-source tech/bin/activate
+# Como executar o script
 
-pip install -r requirements.txt
+- Criar o environment "tech"
+  - python3 -m venv tech
+- Utilizar o ambiente "tech"
+  - source tech/bin/activate
+- Instalar depedências
+  - pip install -r requirements.txt
